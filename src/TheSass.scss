@@ -1,0 +1,42 @@
+@mixin center($display: flex, $justify: center, $alighn: center) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $alighn;
+}
+.Center {
+  @include center();
+}
+.searchbox {
+  border: solid 0.5px #dde5e0;
+  border-radius: 10px;
+  // position: absolute;
+  top: 49px;
+  z-index: 1000;
+  height: 220px;
+  width: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: rgb(217, 217, 242);
+  text-align: start;
+}
+// .searchitem {
+//   // padding: 5px;
+// }
+.searchitem:hover {
+  cursor: pointer;
+  background-color: rgba(174, 164, 164, 0.1);
+  width: 290px;
+  border-radius: 10px;
+}
+.updatebox {
+  border: solid 0.5px #dde5e0;
+  border-radius: 10px;
+  width:200px;
+  // position: absolute;
+  top: 49px;
+  z-index: 1000;
+  height: 80px;
+  width: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: rgb(217, 217, 242);
+  text-align: start;
+}

@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(217, 217, 242) !important
+;
+}
+.card {
+  position: relative;
+}
+.cardImg {
+  transition: 1s 0.2s linear;
+}
+.cardImg:hover {
+  transform: scale(1.3);
+  z-index: 11000;
+}
+.blueBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  z-index: 10000;
+  color: aliceblue;
+  background-color: rgb(2, 4, 66);
+  border-radius: 0 6px 0 15px;
+  font-size: smaller;
+}
+.cart {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 10px;
+}
+.productbanner {
+  background-image: url(./assets/products.png);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+color: rgb(10, 10, 205);
+}
